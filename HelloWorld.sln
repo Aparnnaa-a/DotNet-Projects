@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36203.30 d17.14
+VisualStudioVersion = 17.14.36203.30
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvenNumberforwhile", "EvenNumberforwhile\EvenNumberforwhile.csproj", "{870DBF2A-9A9D-44A0-BC51-5D9D318FE6CA}"
 EndProject
@@ -14,6 +14,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multiplication", "Multiplication\Multiplication.csproj", "{5A108DAD-090F-4D24-98F1-4A184730B538}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorWithFunction", "CalculatorWithFunction\CalculatorWithFunction.csproj", "{215A7F05-CBF0-4725-BE54-D9A5A3742A91}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "June18", "June18", "{CE8A3850-D634-4305-BAB5-E9294757EF21}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{72C85178-AE0B-4883-B17B-3B3643D090A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Genericlistofclassexpenses", "Genericlistofclassexpenses\Genericlistofclassexpenses.csproj", "{5AC89E7E-C05F-4E3C-A30A-4ED4651D91E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +43,10 @@ Global
 		{215A7F05-CBF0-4725-BE54-D9A5A3742A91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{215A7F05-CBF0-4725-BE54-D9A5A3742A91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{215A7F05-CBF0-4725-BE54-D9A5A3742A91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AC89E7E-C05F-4E3C-A30A-4ED4651D91E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AC89E7E-C05F-4E3C-A30A-4ED4651D91E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AC89E7E-C05F-4E3C-A30A-4ED4651D91E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AC89E7E-C05F-4E3C-A30A-4ED4651D91E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -47,6 +57,8 @@ Global
 		{DB6FF1E2-BFD7-4F57-AC71-30CCAC893865} = {0B6C5789-FBC7-4D55-A293-38A2AAB3B607}
 		{5A108DAD-090F-4D24-98F1-4A184730B538} = {0B6C5789-FBC7-4D55-A293-38A2AAB3B607}
 		{215A7F05-CBF0-4725-BE54-D9A5A3742A91} = {0B6C5789-FBC7-4D55-A293-38A2AAB3B607}
+		{72C85178-AE0B-4883-B17B-3B3643D090A3} = {CE8A3850-D634-4305-BAB5-E9294757EF21}
+		{5AC89E7E-C05F-4E3C-A30A-4ED4651D91E0} = {72C85178-AE0B-4883-B17B-3B3643D090A3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F65E413A-10BE-448E-9E14-62FE254A2EA2}
