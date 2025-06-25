@@ -1,0 +1,19 @@
+﻿@model IEnumerable<MVCSelectionInsertion.Models.TocHtrainee>
+
+    <a asp-action="Create">Create</a>
+
+    <table class="table table-striped">
+    <tr>
+        <th>Name</th>
+        <th>Location</th>
+    </tr>
+
+    @foreach(var item in Model)
+    {
+        <tr>
+            <td>@item.Name</td>
+            
+            <td>@item.Location</td>
+        </tr>
+    }
+</table>

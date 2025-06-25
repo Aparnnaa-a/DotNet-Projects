@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<form action="/home/index" method="post">
+    <label>Location</label>
+    <select name="location" id="city">
+        <option value="city">select a city</option>
+        <option value="kochi">kochi</option>
+        <option value="paris">paris</option>
+        <option value="newyork">newyork</option>
+        <option value="london">london</option>
+    </select>
+    <input type="submit" />
+    <div>
+
+        <label>sobrequet:@ViewBag.name</label>
+
+    </div>
+
+
+</form>

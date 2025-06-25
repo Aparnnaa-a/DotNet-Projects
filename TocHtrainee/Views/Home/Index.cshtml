@@ -1,0 +1,24 @@
+﻿@model IEnumerable<TocHtrainees.Models.TocHtrainee>
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Location</th>
+        <th>Age</th>
+    </tr>
+
+ 
+    @foreach(var item in Models)
+    {
+    <tr>
+        <td>@item.Name</td>
+        <td>
+            @item.Location
+        </td>
+        <td>@item.Age</td>
+        </tr>
+    }
+
+    
+</table>
+
+

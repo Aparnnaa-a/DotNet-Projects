@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewData["Title"] = "Create";
+}
+
+<form method="post" action="/home/create">
+
+    <div>
+        <label>Bus No</label>
+        <input type="text" name="BusNo" required />
+        
+    </div>
+
+    <div>
+        <label>Bus Route</label>
+        <input type="text" name="BusRoute" required/>
+    </div>
+    
+    <div>
+        <label>Description</label>
+        <textarea name="Description" required /></textarea>
+    </div>
+
+    <input type="submit"/>
+
+</form>
+

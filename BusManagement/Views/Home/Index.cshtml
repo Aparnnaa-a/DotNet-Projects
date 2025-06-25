@@ -1,0 +1,26 @@
+﻿@model IEnumerable<BusManagement.Models.Bus>
+
+    <a asp-action="Create">Create</a>
+
+<table class="table table-striped">
+    <tr>
+        <th>Bus Number</th>
+        <th>Bus Route</th>
+        <th>Description</th>
+
+    </tr>
+    @foreach (var bus in Model)
+    {
+        <tr>
+            <td>@bus.BusNo</td>
+            <td>@bus.BusRoute</td>
+            <td>@bus.Description</td>
+        </tr>
+    }
+
+    </tr>
+</table>
+
+
+
+

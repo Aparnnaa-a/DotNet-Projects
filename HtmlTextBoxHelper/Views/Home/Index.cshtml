@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+</<div>@ViewBag.Hello</div>
+@using(Html.BeginForm())
+{
+    <div>
+        @Html.Label("Name")
+        @Html.TextBox("Name")
+    </div>
+
+    <input type="submit"/>
+}
